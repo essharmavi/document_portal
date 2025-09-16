@@ -2,7 +2,7 @@
 
 import pytest
 from fastapi.testclient import TestClient
-from document_portal.api.main import app   # or your FastAPI entrypoint
+from api.main import app   # or your FastAPI entrypoint
 
 client = TestClient(app)
 
