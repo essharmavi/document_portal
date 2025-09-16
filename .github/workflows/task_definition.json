@@ -16,7 +16,7 @@
           "containerPort": 8080,
           "hostPort": 8080,
           "protocol": "tcp",
-          "name": "document-portal-container-8080-tcp",
+          "name": "documentportal-8080-tcp",
           "appProtocol": "http"
         }
       ],
