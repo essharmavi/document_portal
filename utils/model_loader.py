@@ -55,7 +55,7 @@ class ModelLoader():
         try:
             log.info("Loading chat model ...")
             llm_block = self.config["llm"]
-            provider_key = os.getenv("PROVIDER_NAME", "groq")  # Default to Groq if not set
+            provider_key = os.getenv("PROVIDER_NAME", "open_ai")  # Default to Groq if not set
 
             if provider_key not in llm_block:
                 log.error("Provider key not found in configuration", provider_key=provider_key)
