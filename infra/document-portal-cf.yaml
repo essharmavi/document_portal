@@ -155,7 +155,7 @@ Resources:
         - FARGATE
       ExecutionRoleArn: !GetAtt ECSExecutionRole.Arn
       ContainerDefinitions:
-        - Name: document-portal-container
+        - Name: documentportal
           Image: !Ref ImageUrl
           Essential: true
           PortMappings:
