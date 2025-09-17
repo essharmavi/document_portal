@@ -29,7 +29,7 @@ app = FastAPI(title="Document Portal API", version="0.1")
 # Without this, browser may block requests due to CORS policy
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],       # "*" means allow all domains (⚠️ in production use your frontend domain)
+    allow_origins=["*"],       # "*" means allow all domains (⚠️ in production use your frontend domain)
     allow_credentials=True,    # Allow cookies / auth headers
     allow_methods=["*"],       # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
     allow_headers=["*"]        # Allow all headers
