@@ -165,13 +165,13 @@ Resources:
               Value: DOCUMENT PORTAL
           Secrets:
             - Name: GROQ_API_KEY
-              ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:GROQ_API_KEY
-            - Name: HF_TOKEN
-              ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:HF_TOKEN
+              ValueFrom: arn:aws:secretsmanager:ap-south-1:859037107780:secret:groq_api_key-xYGdIm
+            - Name: OPENAI_API_KEY
+              ValueFrom: arn:aws:secretsmanager:ap-south-1:859037107780:secret:open_api_key-6SrkFz
             - Name: GOOGLE_API_KEY
-              ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:GOOGLE_API_KEY
-            - Name: LANGCHAIN_API_KEY
-              ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:LANGCHAIN_API_KEY
+              ValueFrom: arn:aws:secretsmanager:ap-south-1:859037107780:secret:google_api_key-GMy80J
+            - Name: PROVIDER_NAME
+              ValueFrom: arn:aws:secretsmanager:ap-south-1:859037107780:secret:production-kXiNlU
           LogConfiguration:
             LogDriver: awslogs
             Options:
