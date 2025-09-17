@@ -29,19 +29,19 @@
       "secrets": [
         {
           "name": "OPENAI_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:api_keys-0cXcYT:OPENAI_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:open_api_key-6SrkFz"
         },
         {
            "name": "PROVIDER_NAME",
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:api_keys-0cXcYT:PROVIDER_NAME"
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:production-kXiNlU"
         },
                 {
            "name": "GOOGLE_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:api_keys-0cXcYT:GOOGLE_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:google_api_key-GMy80J"
         },
                 {
            "name": "GROQ_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:api_keys-0cXcYT:GROQ_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:859037107780:secret:groq_api_key-xYGdIm"
         }
         
         
